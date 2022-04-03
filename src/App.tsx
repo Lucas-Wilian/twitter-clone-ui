@@ -1,8 +1,13 @@
+import { Layout } from "./components/Layout/layout";
+import Globalstyles from "./components/Styles/globalstyles";
+
+
 function App() {
   return (
-    <div className="App">
-      BLANK
-    </div>
+    <>
+      <Layout/>
+      <Globalstyles/>     
+    </>
   );
 }
 
