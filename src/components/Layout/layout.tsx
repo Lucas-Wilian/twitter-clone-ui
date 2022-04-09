@@ -1,15 +1,15 @@
-import React from 'react'
-import { Main } from '../Main/main'
-import * as C from './styles'
+import React from 'react';
+import { Main } from '../Main/main';
+import * as C from './styles';
 
 export const Layout = () => {
   return (
     <C.Container>
       <C.Wrapper>
         {/* <C.MenuBar/> */}
-        <Main/>
+        <Main />
         {/* <C.SideBar/> */}
       </C.Wrapper>
     </C.Container>
-  )
-}
+  );
+};
