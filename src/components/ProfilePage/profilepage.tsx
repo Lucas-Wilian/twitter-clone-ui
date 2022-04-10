@@ -1,4 +1,5 @@
 import * as C from './styles';
+import { Feed } from '../../components/Feed/feed';
 
 export const ProfilePage = () => {
   return (
@@ -32,6 +33,7 @@ export const ProfilePage = () => {
           </span>
         </C.Followage>
       </C.ProfileData>
+      <Feed />
     </C.Container>
   );
 };
