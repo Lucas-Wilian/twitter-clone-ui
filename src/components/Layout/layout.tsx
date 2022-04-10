@@ -1,6 +1,7 @@
 import React from 'react';
 import { Main } from '../Main/main';
 import { MenuBar } from '../MenuBar/menubar';
+import { SideBar } from '../SideBar/sidebar';
 import * as C from './styles';
 
 export const Layout = () => {
@@ -9,7 +10,7 @@ export const Layout = () => {
       <C.Wrapper>
         <MenuBar />
         <Main />
-        {/* <C.SideBar/> */}
+        <SideBar />
       </C.Wrapper>
     </C.Container>
   );

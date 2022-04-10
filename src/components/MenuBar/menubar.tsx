@@ -36,6 +36,14 @@ export const MenuBar = () => {
           <span>Tweetar</span>
         </Button>
       </C.TopSide>
+      <C.BotSide>
+        <C.Avatar />
+        <C.ProfileData>
+          <strong>Lucas Wilian R. S</strong>
+          <span>@lucas_wilianrs</span>
+        </C.ProfileData>
+        <C.ExitIcon />
+      </C.BotSide>
     </C.Container>
   );
 };
