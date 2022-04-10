@@ -12,7 +12,7 @@ export const ProfilePage = () => {
         <h1>Lucas Wilian R. S</h1>
         <h2>@lucas_wilianrs</h2>
         <p>
-          Developer at <a href='#'>@Blank</a>
+          Developer at <a href='#'>@blank_corp</a>
         </p>
         <ul>
           <li>
